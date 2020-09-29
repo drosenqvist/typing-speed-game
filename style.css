@@ -1,0 +1,83 @@
+h1, h2, span, input, button {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, Segoe UI, Roboto;
+  font-weight: 300;
+  transition: ease-in-out 0.1s;
+  letter-spacing: 1px;
+}
+
+body {
+  background-color: aliceblue;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 660px;
+  margin: auto;
+  margin-top: 50px;
+  padding-top: 14px;
+  padding-bottom: 46px;
+  border-radius: 1.5rem;
+  background-color: white;
+}
+
+  main .game-wrapper .word-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 560px;
+    height: 100px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+  }
+
+  main .game-wrapper .word-wrapper span:first-child {
+    background-color: lightgray;
+  }
+
+    main .game-wrapper .word-wrapper span {
+      height: 40px;
+      width: 130px;
+      margin: 5px 5px;
+      font-size: 2rem;
+      font-weight: 300;
+      border-radius: 0.8rem;
+    }
+
+  main .game-wrapper input {
+    height: 60px;
+    margin-right: 200px;
+    padding-left: 28px;
+    border: 1px solid black;
+    border-radius: 0.8rem;
+    font-size: 1.8rem;
+  }
+
+    main .game-wrapper input:focus {
+      outline: none;
+    }
+
+  main .game-wrapper .time {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: rgb(0, 255, 0);
+  }
+
+button {
+  height: 40px;
+  width: 120px;
+  margin-top: 30px;
+  background-color: #0071e3;
+  border-radius: 0.8rem;
+  border: 0;
+  font-size: 1.2rem;
+  color: white;
+  font-weight: 300;
+}
+
+  button:active {
+    outline: none;
+  }
